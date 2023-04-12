@@ -1,5 +1,5 @@
 version: 0.2
-  phases: 
+  phases:
     install:
      commands:
         - echo installing webserver
@@ -14,4 +14,4 @@ version: 0.2
         -echo configured
   artifacts:
     files: 
-      - "**/*
+        - "**/*
