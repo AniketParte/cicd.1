@@ -1,5 +1,6 @@
 version: 0.2
-  phases:
+
+phases:
     install:
      commands:
         - echo installing webserver
@@ -12,6 +13,6 @@ version: 0.2
     post_build:
      commands:
         -echo configured
-  artifacts:
+artifacts:
     files: 
-        - "**/*
+     - "**/*
